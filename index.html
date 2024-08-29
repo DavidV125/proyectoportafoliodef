@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Portafolio</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+<body>
+
+	<header class="col-xs-12">
+    <h1 id="titulo">David Villacura - Resume</h1>
+</header>
+
+
+
+<main class="container">
+	<div class="row">
+		<article class="col-xs-12 col-md-8">
+
+			<p id="parrafoPresentacion"> Profesor de Inglés, con 12 años de experiencia en educación superior e Ingenierio en Administración de Empresas con especialización en Control de Gestión. Responsable, organizado y confiable. Comunicación efectiva en inglés a nivel C1-C2, respaldada por mi experiencia docente. Orientado al trabajo en equipo, estoy en busca de nuevas oportunidades para aplicar y expandir mis habilidades como Ingeniero en Administración de Empresas.</p>
+
+<div id="especial"></div>
+
+
+		</article>
+		<aside class="col-xs-12 col-md-4">
+
+			<p><b>Más información</b></p>
+
+    <button onclick="mostrarExperiencia()">Ver Experiencia Laboral</button><br>
+	
+    <button onclick="mostrarAntecedentes()">Ver Antecedentes Academicos</button><br>
+	
+	<div id="contenedorForm">
+		<form>
+		<div class="mb-3">
+			<p><b>Contáctame</b></p>
+			<label for="emailContacto" class="form-label">Email:</label>
+			<input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+			<div id="emailHelp" class="form-text">No compartiremos su email con nadie.</div>
+		</div>
+		<div class="mb-3">
+			<label for="telefonoContacto" class="form-label">Teléfono:</label>
+			<input type="number" class="form-control" id="telefonoContacto">
+		</div>
+
+		<button id="btnForm" type="button" class="btn btn-success">Enviar</button>
+		</form>
+</div>
+
+
+</aside>
+
+<footer class="col-xs-12">
+	<small>Desarrollado por: <b>David Villacura V.</b></small>
+</footer>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+	<!-- JQUERY LOCAL-->
+	
+	<script src="./assets/js/jquery/jquery-3.7.1.js"></script>
+	
+	<!--Bootstrap-->
+	
+	<script src="./assets/js/bootstrap.bundle.min.js"></script>
+	
+	<!--Canvas desde pagina-->
+	
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	
+	<!--Mis scripts-->
+	
+		<script src="./assets/js/logica.js"></script>
+		<script src="./assets/js/logicaJquery.js"></script>
+
+</body>
+</html>
